@@ -45,12 +45,4 @@ public class Rectangulo extends Cuadrado {
     public String toString() {
         return "Rectangulo{" + super.toString() + ", alto=" + alto + '}';
     }
-
-    
-    
-
-    
-    
-    
-    
 }
