@@ -40,6 +40,7 @@ public class ClaseFigura {
         System.out.println(c1);
         
         System.out.println(Figura.numFiguras());
+        System.out.println(c1.perimetro());
     }
     
 }
