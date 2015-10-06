@@ -40,6 +40,10 @@ public abstract class Figura {
         return Figura.numFiguras;
     }
     
+    public double distancia(Figura f) {
+        return this.origen.distancia(f.getOrigen());
+    }
+    
     protected abstract double area();
     protected abstract double perimetro();
     protected abstract void escalar(double n);
