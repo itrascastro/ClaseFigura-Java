@@ -18,6 +18,11 @@ public abstract class Figura {
         this.origen = origen;
         Figura.numFiguras++;
     }
+    
+    public void Figura() {
+        this.origen = new Punto();
+        Figura.numFiguras++;
+    }
 
     public Punto getOrigen() {
         return origen;
