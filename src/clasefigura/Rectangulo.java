@@ -26,18 +26,18 @@ public class Rectangulo extends Cuadrado {
     }
     
     @Override
-    protected void escalar(double n) {
+    public void escalar(double n) {
         super.escalar(n); //To change body of generated methods, choose Tools | Templates.
         this.alto *= n;
     }
 
     @Override
-    protected double perimetro() {
+    public double perimetro() {
         return this.ancho * 2 + this.alto * 2;
     }
 
     @Override
-    protected double area() {
+    public double area() {
         return this.ancho * this.alto;
     }
 

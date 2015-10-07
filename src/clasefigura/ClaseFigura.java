@@ -34,13 +34,21 @@ public class ClaseFigura {
     }
     
     public static void testCirculo(Punto origen) {
+        System.out.println(origen);
         Circulo c = new Circulo(origen, 3);
+        origen.desplazar(3, 2);
+        System.out.println(origen);
         Circulo c1 = new Circulo(origen, 4);
         
+        System.out.println(c);
         System.out.println(c1);
+        
         
         System.out.println(Figura.numFiguras());
         System.out.println(c1.perimetro());
+        System.out.println("Distancia: " + c.distancia(c1));
+        
+        System.out.println("Area: " + c1.area());
     }
     
 }

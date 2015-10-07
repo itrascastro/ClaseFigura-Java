@@ -31,17 +31,17 @@ public class Cuadrado extends Figura {
     }
     
     @Override
-    protected double area() {
+    public double area() {
         return Math.pow(this.ancho, 2);
     }
 
     @Override
-    protected double perimetro() {
+    public double perimetro() {
         return 4 * this.ancho;
     }
 
     @Override
-    protected void escalar(double n) {
+    public void escalar(double n) {
         this.ancho *= n;
     }
     

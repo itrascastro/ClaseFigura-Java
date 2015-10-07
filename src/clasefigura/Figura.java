@@ -49,7 +49,7 @@ public abstract class Figura {
         return this.origen.distancia(f.getOrigen());
     }
     
-    protected abstract double area();
-    protected abstract double perimetro();
-    protected abstract void escalar(double n);
+    public abstract double area();
+    public abstract double perimetro();
+    public abstract void escalar(double n);
 }

@@ -41,17 +41,17 @@ public class Triangulo extends Figura {
     }
     
     @Override
-    protected double area() {
+    public double area() {
         return this.base * this.altura / 2;
     }
 
     @Override
-    protected double perimetro() {
+    public double perimetro() {
         return Math.sqrt( Math.pow(this.altura, 2) + Math.pow(this.base / 2, 2) ) * 2 + this.base;
     }
 
     @Override
-    protected void escalar(double n) {
+    public void escalar(double n) {
         this.base *= n;
         this.altura *= n;
     }

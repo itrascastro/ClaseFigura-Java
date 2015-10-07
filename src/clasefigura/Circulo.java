@@ -18,17 +18,17 @@ public class Circulo extends Figura {
     }
 
     @Override
-    protected double area() {
+    public double area() {
         return Math.PI * Math.pow(this.radio, 2);
     }
 
     @Override
-    protected double perimetro() {
+    public double perimetro() {
         return 2 * Math.PI * this.radio;
     }
 
     @Override
-    protected void escalar(double n) {
+    public void escalar(double n) {
         this.radio *= n;
     }
 
