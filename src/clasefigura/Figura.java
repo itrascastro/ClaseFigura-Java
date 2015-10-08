@@ -14,7 +14,7 @@ public abstract class Figura {
     private static int numFiguras = 0;
     
     
-    public void Figura(Punto origen) {
+    public Figura(Punto origen) {
         this.origen = origen;
         Figura.numFiguras++;
     }

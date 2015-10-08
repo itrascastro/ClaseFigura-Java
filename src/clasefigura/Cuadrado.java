@@ -12,8 +12,8 @@ package clasefigura;
 public class Cuadrado extends Figura {
     protected double ancho;
 
-    public void Cuadrado(Punto origen, double ancho) {
-        super.Figura(origen);
+    public Cuadrado(Punto origen, double ancho) {
+        super(origen);
         this.ancho = ancho;
     }
 

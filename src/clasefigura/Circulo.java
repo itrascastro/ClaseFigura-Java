@@ -13,7 +13,7 @@ public class Circulo extends Figura {
     private int radio;
     
     public Circulo(Punto origen, int radio) {
-        super.Figura(origen);
+        super(origen);
         this.radio = radio;
     }
 

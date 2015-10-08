@@ -13,7 +13,7 @@ public class Rectangulo extends Cuadrado {
     private double alto;
 
     public Rectangulo(Punto origen, double ancho, double alto) {
-        super.Cuadrado(origen, ancho);
+        super(origen, ancho);
         this.alto = alto;
     }
 
