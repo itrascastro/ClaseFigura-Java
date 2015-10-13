@@ -19,7 +19,7 @@ public abstract class Figura {
         Figura.numFiguras++;
     }
     
-    public void Figura() {
+    public Figura() {
         this.origen = new Punto();
         Figura.numFiguras++;
     }
